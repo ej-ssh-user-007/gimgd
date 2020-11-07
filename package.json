@@ -1,0 +1,22 @@
+{
+  "name": "label-image-scrapper",
+  "version": "1.0.0",
+  "description": "A  program to scrape images from Google Images for the label specified and the number of images to be scrapped and downloaded specified.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Google",
+    "Image",
+    "Scrapper"
+  ],
+  "author": "sbk",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^5.4.1",
+    "yargs": "^16.1.0"
+  }
+}
