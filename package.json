@@ -4,7 +4,7 @@
   "description": "A  program to scrape images from Google Images for the label specified and the number of images to be scrapped and downloaded specified.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "crawl": "node index.js"
   },
   "keywords": [
     "Google",
@@ -12,10 +12,8 @@
     "Scrapper"
   ],
   "author": "sbk",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.0",
-    "cheerio": "^1.0.0-rc.3",
     "filenamify": "^4.2.0",
     "mime-types": "^2.1.27",
     "puppeteer": "^5.4.1",
